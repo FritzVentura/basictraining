@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-### Assignment
-=======
 
 
 
@@ -27,5 +24,4 @@ Make sure you get the difference between calling the named function, calling the
 10. 
 
 
->>>>>>> 6d2a8593f2fca4f3dddb140ef77f70dc68f1189f
 

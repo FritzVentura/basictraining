@@ -1,21 +1,19 @@
 "use strict";
 
-document.addEventListener("DOMConentLoaded", addStudent);
+document.addEventListener("DOMContentLoaded", addStudents);
 
-async function addStudent(){
-// fin DOM ELEMENTER + template + modtager
+async function addStudents(){
 
-let template = document.querySelector("#studentinfo");
-let students = document.querySelector("#students");
+    let template = document.querySelector("#studentsinfo");
+    let students = document.querySelector("#students");
 
-// hent json
-let jsonData = await fetch("http://petlatkea.dk/2018/front/students.json");
-let names = await jsonData.json();
-
-names.forEach(function(parm){
-    let splitNames = parm.split("");
+    let jsonData = await fetch("data.json");
+    let names = await jsonData.json();
     console.log(names);
-})
 
+    names.forEach(function(parm){
+        let splitNames = parm.split(" ");
+    })
 
-};
+}
+

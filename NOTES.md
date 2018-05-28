@@ -21,7 +21,11 @@ Make sure you get the difference between calling the named function, calling the
 
 9. Make a function - name it upper, that receives a string as parameter, and returns the upperCase version of that string
 
-10. 
+10. Use .map on the array, make it call the upper function, and store the new array in another variable. Console.log that variable, and check that it is an upper case version of your original array
+
+
+11. Convert the new array into a string, check that the new string is the same as your original string .toUpperCase()
+
 
 
 
